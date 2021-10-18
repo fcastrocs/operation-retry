@@ -23,11 +23,14 @@ export default class Operation {
 
   /**
    * retry operation after failure. Operation won't be retried if this is not called.
+   * @returns false when retries have been exhausted, true otherwise.
    */
   public retry() {
     if (this.currentAttempt <= this.retries) {
       this.execute();
+      return true;
     }
+    return false;
   }
 
   /**
