@@ -18,11 +18,14 @@ class Operation {
     }
     /**
      * retry operation after failure. Operation won't be retried if this is not called.
+     * @returns false when retries have been exhausted, true otherwise.
      */
     retry() {
         if (this.currentAttempt <= this.retries) {
             this.execute();
+            return true;
         }
+        return false;
     }
     /**
      * Set a new config while still attempting an operation.
