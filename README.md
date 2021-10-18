@@ -24,6 +24,7 @@ create a new OperationRetry object
 ### retry()
 
 To be called in the callback (operation) passed in the attempt() method. The operation won't be retried if this is not called.
+Returns true when operation will be attempted again, false if exhausted all retries
 
 ### setNewConfig(options: { retries: number; interval: number; }
 
