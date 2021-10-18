@@ -10,7 +10,7 @@ class OperationRetry {
     /**
      * Attempt operation
      */
-    async attempt(operation) {
+    attempt(operation) {
         this.operation = operation;
         this.execute();
     }

@@ -16,7 +16,7 @@ class OperationRetry {
   /**
    * Attempt operation
    */
-  public async attempt(operation: (currentAttempt: number) => void) {
+  public attempt(operation: (currentAttempt: number) => void) {
     this.operation = operation;
     this.execute();
   }

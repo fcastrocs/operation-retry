@@ -13,7 +13,7 @@ declare class OperationRetry {
     /**
      * Attempt operation
      */
-    attempt(operation: (currentAttempt: number) => void): Promise<void>;
+    attempt(operation: (currentAttempt: number) => void): void;
     /**
      * retry operation after failure. Operation won't be retried if this is not called.
      */
