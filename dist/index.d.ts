@@ -17,7 +17,7 @@ declare class OperationRetry {
     /**
      * retry operation after failure. Operation won't be retried if this is not called.
      */
-    retry(): Promise<void>;
+    retry(): void;
     /**
      * Set a new config while still attempting an operation.
      * Calling this method only has effect once to avoid infinite retries.

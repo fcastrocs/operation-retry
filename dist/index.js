@@ -17,7 +17,7 @@ class OperationRetry {
     /**
      * retry operation after failure. Operation won't be retried if this is not called.
      */
-    async retry() {
+    retry() {
         if (this.currentAttempt <= this.retries) {
             this.execute();
         }
@@ -55,4 +55,3 @@ class OperationRetry {
         }
     }
 }
-//# sourceMappingURL=index.js.map
