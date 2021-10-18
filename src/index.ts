@@ -24,7 +24,7 @@ class OperationRetry {
   /**
    * retry operation after failure. Operation won't be retried if this is not called.
    */
-  public async retry() {
+  public retry() {
     if (this.currentAttempt <= this.retries) {
       this.execute();
     }
