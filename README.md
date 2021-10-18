@@ -2,7 +2,7 @@ A very simple failed operation retry module.
 
 ## Installation
 
-    npm install operation-retry
+    npm install @machiavelli/retry
 
 ## constructor
 
