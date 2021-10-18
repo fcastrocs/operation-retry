@@ -1,4 +1,4 @@
-class RetryOperation {
+export default class Operation {
   private retries: number;
   private interval: number;
   private currentAttempt = 0;

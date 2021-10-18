@@ -1,4 +1,4 @@
-declare class RetryOperation {
+export default class Operation {
     private retries;
     private interval;
     private currentAttempt;

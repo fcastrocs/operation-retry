@@ -1,5 +1,5 @@
 {
-  "name": "retry-operation",
+  "name": "re-attempt",
   "version": "1.0.4",
   "keywords": [
     "retry",

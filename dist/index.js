@@ -1,4 +1,6 @@
-class RetryOperation {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class Operation {
     constructor(options) {
         this.currentAttempt = 0;
         this.usedNewConfig = false;
@@ -55,3 +57,4 @@ class RetryOperation {
         }
     }
 }
+exports.default = Operation;
