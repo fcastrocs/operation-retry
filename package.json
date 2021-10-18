@@ -1,12 +1,17 @@
 {
   "name": "operation-retry",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "keywords": [
+    "retry",
+    "promise retry"
+  ],
   "description": "simple operation retry",
   "main": "dist/index.js",
+  "homepage": "https://github.com/fcastrocs/operation-retry",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Francisco Castro",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.4.4"
