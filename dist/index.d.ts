@@ -1,4 +1,4 @@
-declare class OperationRetry {
+declare class RetryOperation {
     private retries;
     private interval;
     private currentAttempt;

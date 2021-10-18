@@ -1,9 +1,10 @@
 {
-  "name": "operation-retry",
+  "name": "retry-operation",
   "version": "1.0.4",
   "keywords": [
     "retry",
-    "promise retry"
+    "promise retry",
+    "operation retry"
   ],
   "description": "simple operation retry",
   "main": "dist/index.js",

@@ -1,4 +1,4 @@
-class OperationRetry {
+class RetryOperation {
     constructor(options) {
         this.currentAttempt = 0;
         this.usedNewConfig = false;
