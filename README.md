@@ -1,4 +1,5 @@
 A very simple failed operation retry module.
+Originally forked from https://github.com/tim-kos/node-retry
 
 ## Installation
 
