@@ -3,7 +3,7 @@ Originally forked from https://github.com/tim-kos/node-retry
 
 ## Installation
 
-    npm install @machiavelli/retry
+    npm install @fcastrocs/retry
 
 ## constructor
 
