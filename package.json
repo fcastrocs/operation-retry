@@ -1,9 +1,9 @@
 {
   "name": "@fcastrocs/retry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "type": "module",
-  "typings": "lib/index.d.ts",
+  "typings": "@types",
   "keywords": [
     "retry",
     "promise retry",
